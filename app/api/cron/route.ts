@@ -5,7 +5,7 @@ import { getAveragePrice, getEmailNotifType, getHighestPrice, getLowestPrice } f
 import { generateEmailBody, sendEmail } from "@/lib/nodemailer";
 import { NextResponse } from "next/server";
 
-export const maxDuration = 300
+export const maxDuration = 9
 export const dynamic = 'force-dynamic'
 export const revalidate = 0;
 
